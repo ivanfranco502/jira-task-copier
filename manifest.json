@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "JIRA Branch Name Generator",
+    "version": "1.0.0",
+    "description": "Generates a branch name based on the JIRA issue key and priority.",
+    "permissions": ["activeTab", "clipboardWrite"],
+    "browser_action": {
+      "default_title": "Generate Branch Name",
+      "default_popup": "popup.html"
+    }
+  }
+  
